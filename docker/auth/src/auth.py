@@ -31,7 +31,7 @@ def check_auth(username, password):
 
 def authenticate():
   return Response(
-  'Login Required', 401,
+  json.dumps({'authenticated': False}), 401,
   {'WWW-Authenticate': 'Basic realm="Login Required"'})
 
 def auth(f):
