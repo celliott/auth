@@ -1,5 +1,5 @@
 # auth
-Basic auth http auth endpoint backed by vault
+Basic auth http endpoint backed by vault
 
 ## Requirements
 * [Docker for Mac](https://www.docker.com/docker-mac)
