@@ -1,0 +1,12 @@
+apiVersion: v1
+description: A Helm chart for running auth in Kubernetes
+name: auth
+version: 0.1.0
+keywords:
+- kubernetes deployment
+- helm release
+- auth
+sources:
+- https://github.com/celliott/auth
+maintainers:
+- name: celliott

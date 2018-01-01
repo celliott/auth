@@ -1,0 +1,19 @@
+replicaCount: 3
+vault:
+  address: http://vault-vault.vault:8200
+
+image:
+  repository: celliott/auth
+  tag: latest
+  pullPolicy: Always
+service:
+  name: auth
+  type: ClusterIP
+  externalPort: 3000
+  internalPort: 3000
+ingress:
+  enabled: false
+  hostname:
+  tls:
+    enabled: true
+resources: {}
