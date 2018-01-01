@@ -15,10 +15,8 @@ Get auth
 
 #### plaintext
 
-```
-$ make get-pass
-# or
-$ curl http://127.0.0.1:3000
+```bash
+$ curl https://${SERVICE}.${DOMAIN}
 {
   "authenticated": true,
   "user": "<username>"
